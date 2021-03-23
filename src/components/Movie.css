@@ -16,6 +16,11 @@
     text-decoration: none;
     color: inherit;
 }
+.movies a {
+    display: grid;
+    grid-template-columns: minmax(500px, 20fr) 2fr;
+    text-decoration: none;
+}
 
 .movie img {
     position: relative;
